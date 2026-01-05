@@ -1,0 +1,128 @@
+body{
+    font-family:"Handwritten";
+    line-height:1.5;
+    background-color:blanchedalmond;
+}
+strong{
+    font-weight:900;
+    font-size:1.2em;
+}
+#TopBar{
+    height:15%;
+    /* background:linear-gradient(90deg,rgba(187, 71, 65, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(187, 71, 65, 1) 75%); */
+    background-color: rgb(187, 71, 65);
+    display: flex;
+    justify-content: flex-start;
+    padding:1% 0 2%;
+    margin-bottom:2%;
+    align-items: center;
+    background-image: url('/media/sasha/SashaBannerBackground2.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+#Everything{
+    background-image:url('/media/sasha/SashaPageBackground.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+#Back{
+   background-image:url('/media/sasha/SashaBackArrow.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    width:15%;
+    height:70%; 
+    margin-left:5%;
+}
+#Back:hover{
+    background-image:url('/media/sasha/SashaBackArrowSelected.png');
+}
+#Title{
+    background-image:url('/media/sasha/SashaTitleDark.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    width:30%;
+    height:100%;
+    margin-left:20%;
+}
+#Description{
+    width:70%;
+    margin-left:15%;
+    display:flex;
+    /* flex-flow:column; */
+    align-items:center;
+    justify-content: space-around;
+}
+#DescriptionLeft{
+ width:50%;
+ font-size:large;
+ padding:2% 5%;
+}
+#DescriptionRight{
+    width:30%;
+    display:flex;
+    flex-flow:column;
+    justify-content: space-around;
+}
+#DescriptionRight h2{
+    background-color: rgb(248, 237, 206);
+    color:rgb(187, 71, 65);
+    padding:10%;
+    border-radius:10%;
+}
+#Enjoy{
+    display:flex;
+    justify-content:center;
+}
+#SashaContainer{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#LeftArrow{
+    width:5%;
+}
+#SashaPageHolder{
+    width:80%;
+    height:fit-content;
+    /* background-image:url('/media/sasha/SashaWeb-02.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page{
+    /* position:absolute; */
+    width:100%;
+    height:100%;
+}
+#SashaPage{
+height:100%;
+border: 10pt solid black;
+}
+#SashaPageFreezer{
+    opacity:0;
+    position:absolute;
+    left:18%;
+}
+#RightArrow{
+    width:5%;
+}
+#StoryTeller{
+    width:20%;
+    margin-top:-25%;
+    position:relative;
+}
+#Footer{
+    position:relative;
+    height:15%;
+    background-color: rgb(187, 71, 65);
+    margin-top:2%;
+    background-image:url('/media/sasha/FooterSteps.gif');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+
+}

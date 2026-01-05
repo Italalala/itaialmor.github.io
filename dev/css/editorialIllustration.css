@@ -1,0 +1,90 @@
+#SliderContainer{
+    display:flex;
+    justify-content:center;
+}
+#Slider{
+    width:80%;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+    background-color:rgb(151, 158, 169);
+    padding:1%;
+    height:fit-content;
+    margin-top:1%;
+    border-radius:25px;
+    transition: background-color 0.2s ease;
+}
+#Slider:hover{
+    background-color:rgb(203, 233, 255);
+}
+.thumbnail{
+    width:7%;
+    height:fit-content;
+    overflow:hidden;
+    border-radius:20%;
+    cursor:pointer;
+    padding:0 0.5%;
+    opacity:0.75;
+    transition: opacity 0.1 ease;
+}
+.thumbnail:hover{
+    opacity:1;
+}
+#TopBar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-bottom: 10pt double black;
+    background-color:white;
+ }
+ #TopBar a{
+    width:15%;
+    margin:2%;
+    position:absolute;
+    left:1%;
+ }
+ #Back{
+    width:100%;
+    margin:2%;
+    background-color:white;
+}
+#EITitle{
+    width:30%;
+    height:fit-content;
+}
+#EITitle img{
+    width:100%;
+}
+#Spotlight{
+    background-image: url("/media/editorialIllustration/notebook.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:100%;
+    height:fit-content;
+    display:flex;
+    justify-content:space-around;
+    align-content:flex-start;
+}
+#SpotlightImage{
+    width:60%;
+    margin:5% 0 5% 2%;
+    height:fit-content;
+    border:2pt black solid;
+}
+#SpotlightDetails{
+    margin: 5% 4% 0 0;
+    width: 15%;
+    text-align: right;
+    font-size:1.25em;
+    background-color:white;
+    padding:1%;
+    height:fit-content;
+    border: 2pt double black;
+}
+#Title{
+    font-family:'Jetlag';
+}
+#Description{
+    font-family:'Handwritten';
+}
